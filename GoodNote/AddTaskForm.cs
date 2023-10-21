@@ -19,7 +19,8 @@ namespace GoodNote
 
         private void addTaskButton_Click(object sender, EventArgs e)
         {
-
+            // Close the window
+            this.Close();
         }
     }
 }
