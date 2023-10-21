@@ -66,6 +66,7 @@
             this.addButton.Text = "Add!";
             this.addButton.UseVisualStyleBackColor = false;
             this.addButton.Click += new System.EventHandler(this.addTaskButton_Click);
+
             // 
             // AddTaskForm
             // 
@@ -78,7 +79,6 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(255)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "AddTaskForm";
             this.Text = "Add Task";
             this.ResumeLayout(false);
             this.PerformLayout();
