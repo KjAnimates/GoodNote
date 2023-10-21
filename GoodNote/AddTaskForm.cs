@@ -10,27 +10,16 @@ using System.Windows.Forms;
 
 namespace GoodNote
 {
-    public partial class Form1 : Form
+    public partial class AddTaskForm : Form
     {
-        public Form1()
+        public AddTaskForm()
         {
             InitializeComponent();
         }
 
-        private void taskList_AfterSelect(object sender, TreeViewEventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            TreeNode newNode = new TreeNode("Test");
-            taskList.Nodes.Add(newNode);
-        }
-
         private void addTaskButton_Click(object sender, EventArgs e)
         {
-            new AddTaskForm().Show();
+
         }
     }
 }
