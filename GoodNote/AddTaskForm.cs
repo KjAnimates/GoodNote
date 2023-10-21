@@ -17,9 +17,15 @@ namespace GoodNote
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Add the task, and close the window
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e">Event Arguments</param>
         private void addTaskButton_Click(object sender, EventArgs e)
         {
-
+            // Close the window
+            this.Close();
         }
     }
 }
