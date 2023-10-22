@@ -55,7 +55,8 @@
             this.taskList.Name = "taskList";
             this.taskList.Size = new System.Drawing.Size(733, 374);
             this.taskList.TabIndex = 1;
-            this.taskList.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.taskList_AfterSelect);
+            // this.taskList.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.taskList_AfterSelect);
+            
             // 
             // addTaskButton
             // 
